@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "^/$", "dest": "/public/index.html" },
+    { "src": "^/sender$", "dest": "/public/sender.html" },
+    { "src": "/(.*)", "dest": "/public/$1" }
+  ]
+}
